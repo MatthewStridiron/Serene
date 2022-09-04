@@ -1,0 +1,31 @@
+function foo() -> string {
+printstring("in foo");
+printstring("returning foo");
+return "foo";
+}
+
+function bar() -> string {
+string a;
+string b;
+printstring("in bar");
+printstring("calling foo()");
+a = foo();
+printstring("concatenating foo() and bar()");
+b = concatenate(a, " bar");
+printstring("returning foo bar");
+return b;
+}
+
+function main() -> string {
+string c;
+string d;
+printstring("RUNNING FOO_BAR.SN");
+printstring("in main");
+printstring("calling bar");
+c = bar();
+printstring("returning c, which is printed below");
+printstring(c);
+printstring("FOO_BAR.SN WORKS SUCCESSFULLY");
+printstring("----");
+return c;
+}

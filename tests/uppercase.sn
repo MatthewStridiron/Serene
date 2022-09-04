@@ -1,0 +1,10 @@
+string s;
+function main() -> integer {
+printstring("RUNNING TOUPPERCASE.SN");
+s = "hello";
+s = touppercase(s);
+printstring(s);
+printstring("TOUPPERCASE.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

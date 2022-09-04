@@ -1,0 +1,36 @@
+function main() -> integer {
+  string a;
+  string b;
+  string c;
+  string d;
+  string e;
+  string f;
+
+  printstring("Our starting string:");
+  a = "The quick brown fox jumps over the lazy dog. ";
+  printstring(a);
+
+  printstring("Repeat the string 'Hello! ' 3 times");
+  b = repeatstring("Hello! ", 3);
+  printstring(b);
+
+  printstring("Let's concatenate what strings we have so far:");
+  c = concatenate(a, b);
+  printstring(c);
+
+  printstring("Let's take a substring of our string so far:");
+  d = substring(c, 4, 15);
+  printstring(d);
+
+  printstring("Let's scramble some letters:");
+  f = scrambleletters("scrambleme");
+  f = touppercase(f);
+  printstring(f);
+
+  printstring("And back to lowercase:");
+  f = tolowercase(f);
+  printstring(f);
+
+  printstring("And now backwards:");
+  printstring(reversestring(f));
+}

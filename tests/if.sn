@@ -1,0 +1,17 @@
+integer a;
+integer b;
+
+function main() -> integer {
+printstring("RUNNING IF.SN");
+a = 1;
+b = 0;
+
+        if(a > b)
+        {
+         printstring("a is greater than b");
+        }
+
+printstring("IF.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

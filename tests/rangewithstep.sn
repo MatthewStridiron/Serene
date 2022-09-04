@@ -1,0 +1,9 @@
+function main() -> integer {
+integer[] arr;
+arr = rangewithstep(1,8,2);
+printstring("RUNNING RANGEWITHSTEP.SN");
+printarray(arr,4);
+printstring("RANGEWITHSTEP.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

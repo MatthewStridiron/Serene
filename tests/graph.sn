@@ -1,0 +1,19 @@
+integer f;
+function graph(integer a) -> integer {
+return 3 * a + 32;
+}
+
+function main() -> integer {
+printstring("RUNNING GRAPH.SN");
+
+
+f = 5;
+print(graph(f));
+f = 10;
+print(graph(f));
+f = 50;
+print(graph(f));
+printstring("GRAPH.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

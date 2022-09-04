@@ -1,0 +1,19 @@
+integer a;
+integer b;
+
+function main() -> integer {
+printstring("RUNNING IFELSE.SN");
+a = 1;
+b = 0;
+
+if(a < b) {
+printstring("a is less than b");
+}
+else
+{
+printstring("entered else statement");
+}
+printstring("IFELSE.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

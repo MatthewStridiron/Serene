@@ -1,0 +1,54 @@
+function main() -> integer {
+
+  integer x1;
+  integer x2;
+  integer y1;
+  integer y2;
+  integer dist;
+  integer gcd;
+  boolean num1Prime;
+  boolean num2Prime;
+
+  !~ Generate two numbers between 0, 100 ~!
+  x1 = randomnumber(1, 100);
+  x2 = randomnumber(1, 100);
+  y1 = randomnumber(1, 100);
+  y2 = randomnumber(1, 100);
+
+  printstring("Generating 4 random numbers: ");
+  printstring("x1");
+  print(x1);
+  printstring("y1");
+  print(y1);
+  printstring("x2");
+  print(x2);
+  printstring("y2");
+  print(y2);
+  printstring("");
+
+  !~ Calculate the distance between them ~!
+  dist = distance(x1, y1, x2, y2);
+  printstring("The distance between the two numbers is");
+  print(dist);
+  printstring("");
+
+  !~ Check if either is prime ~!
+  num1Prime = isprime(x1);
+  if (num1Prime) {
+    printstring("x1 is prime!");
+  } else {
+    printstring("x1 is not prime!");
+  }
+  num2Prime = isprime(x2);
+  if (num2Prime) {
+    printstring("x2 is prime!");
+  } else {
+    printstring("x2 is not prime!");
+  }
+  printstring("");
+
+  !~ Print their greatest common denominator ~!
+  printstring("The GCD between the x1 and x2 is");
+  gcd = greatestcommondenominator(x1,x2);
+  print(gcd);
+}

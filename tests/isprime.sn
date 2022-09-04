@@ -1,0 +1,9 @@
+boolean b;
+function main() -> integer {
+integer x;
+x = 17;
+b = isprime(x);
+printstring("17 IS PRIME. RETURNING TRUE.");
+printboolean(b);
+return 1;
+}

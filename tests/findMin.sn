@@ -1,0 +1,41 @@
+integer index;
+integer smallestValue;
+integer output;
+
+function main() -> integer {
+integer[] arr;
+arr = [7,5,9,1,12];
+index = 0;
+smallestValue = arr[0];
+
+while(index < 5) {
+  if(arr[index] < smallestValue) {
+    smallestValue = arr[index];
+  }
+index = index + 1;
+}
+
+
+printstring("RUNNING FINDMIN.SN");
+printstring("smallest value from while loop");
+print(smallestValue);
+
+printstring("also deriving value from built in function");
+print(minimum(arr,5));
+output = minimum(arr,5);
+
+
+if(smallestValue == output) {
+printstring("FINDMIN.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}
+else
+{
+printstring("FINDMIN.SN FAILS");
+printstring("----");
+return 0;
+}
+
+
+}

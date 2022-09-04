@@ -1,0 +1,56 @@
+integer ten;
+integer absolute_val;
+boolean b;
+string long_word;
+
+function main() -> integer {
+integer[] arr;
+arr = [1,2,3,4,5,6,7,8,9,10];
+printstring("RUNNING EXTERNAL_CALLS.SN");
+printstring("testing maximum");
+print(maximum(arr,10));
+
+printstring("----");
+printstring("testing minimum");
+print(minimum(arr,10));
+
+printstring("----");
+printstring("sum");
+print(sum(arr,10));
+
+printstring("----");
+printstring("testing product");
+print(product(arr,10));
+
+printstring("----");
+printstring("testing reverse");
+arr = reverse(arr,10);
+printarray(arr,10);
+
+printstring("----");
+printstring("testing power");
+ten = 10;
+print(power(ten,3));
+
+printstring("----");
+printstring("testing abs");
+absolute_val = 5;
+print(absolute(absolute_val));
+
+printstring("----");
+printstring("testing printboolean");
+b = true;
+printboolean(b);
+
+
+printstring("----");
+
+printstring("testing substring");
+long_word = "onomatopoeia";
+printstring(substring(long_word, 0, 5));
+
+
+printstring("EXTERNAL FUNCTION CALLS WORK SUCCESSFULLY");
+printstring("----");
+return 1;
+}

@@ -1,0 +1,10 @@
+function main() -> integer {
+printstring("RUNNING RANDOM.SN");
+printstring("GENERATING RANDOM NUMBER BETWEEN 1 AND 100");
+print(randomnumber(1,100));
+printstring("GENERATING RANDOM LETTER");
+printstring(randomletter());
+printstring("RANDOM.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

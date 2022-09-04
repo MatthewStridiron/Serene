@@ -1,0 +1,41 @@
+integer index;
+integer largest_value;
+integer output;
+
+function main() -> integer {
+integer[] arr;
+arr = [7,5,9,1,12];
+index = 0;
+largest_value = arr[0];
+
+while(index < 5) {
+        if(arr[index] > largest_value) {
+        largest_value = arr[index];
+        }
+index = index + 1;
+}
+
+
+printstring("RUNNING FINDMAX.SN");
+printstring("largest value from while loop");
+print(largest_value);
+
+printstring("also deriving value from built in function");
+print(maximum(arr,5));
+output = maximum(arr,5);
+
+
+if(largest_value == output) {
+printstring("FINDMAX.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}
+else
+{
+printstring("FINDMAX.SN FAILS");
+printstring("----");
+return 0;
+}
+
+
+}

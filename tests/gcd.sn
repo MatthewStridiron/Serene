@@ -1,0 +1,8 @@
+function main() -> integer {
+printstring("RUNNING GCD.SN");
+printstring("PRINTING GCD OF 100 AND 25");
+print(greatestcommondenominator(100,25));
+printstring("GCD.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

@@ -1,0 +1,21 @@
+integer a;
+integer b;
+
+function main() -> integer {
+printstring("RUNNING OPERATIONS.SN");
+a = 10;
+b = 20;
+
+print(a+b);
+print(a-b);
+print(a*b);
+print(b/a);
+printboolean(a == b);
+printboolean(a != b);
+printboolean(a > b);
+printboolean(a < b);
+printboolean(a <= b);
+printstring("OPERATIONS.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

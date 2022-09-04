@@ -1,0 +1,10 @@
+string s;
+function main() -> integer {
+s = "alladba";
+s = reversestring(s);
+printstring("RUNNING REVERSESTR.SN");
+printstring(s);
+printstring("REVERSESTR.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

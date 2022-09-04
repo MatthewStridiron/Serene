@@ -1,0 +1,13 @@
+integer i;
+function main() -> integer {
+printstring("----");
+printstring("RUNNING WHILE.SN");
+i = 0;
+while(i < 5) {
+printstring("running through while loop 5 times");
+i = i + 1;
+}
+printstring("END OF WHILE.SN");
+printstring("----");
+return 1;
+}

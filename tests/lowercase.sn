@@ -1,0 +1,10 @@
+string s;
+function main() -> integer {
+printstring("RUNNING LOWERCASE.SN");
+s = "HELLO";
+s = tolowercase(s);
+printstring(s);
+printstring("LOWERCASE.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

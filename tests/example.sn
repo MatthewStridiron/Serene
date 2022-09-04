@@ -1,0 +1,86 @@
+integer d;
+integer v;
+
+function test(integer v) -> integer  {
+  d = 1;
+  for(d, d < 5, d = d+1) {
+    v = v + 1;
+  }
+  return v;
+}
+
+function main() -> integer {
+  string[] arr;
+  integer[] ar;
+  string bu;
+  float z;
+  integer but;
+  integer x;
+  integer y;
+  integer[] ss;
+
+  integer a;
+  integer b;
+  a = 10;
+  b = 20;
+
+
+  arr = ["a", "b", "c", "d"];
+  ar = [1,2,3,4];
+  bu = arr[0];
+  but = ar[0];
+  x = 2;
+  y = 3;
+
+  printstring("RUNNING EXAMPLE.SN");
+  if (x < y) { printstring("x is less"); }
+
+
+  printboolean(not true);
+  printstring(bu);
+  print(but);
+  printstring("blah");
+  print(0);
+  printstring(substring("hello", 1, 3));
+  print(maximum(ar, 4));
+  print(minimum(ar, 4));
+  print(sum(ar, 4));
+  print(product(ar, 4));
+  ar = reverse(ar, 4);
+  print(ar[1]);
+  print(absolute(5));
+  print(power(2, 3));
+  print(fibonacci(7));
+  print(factorial(8));
+  printarray(ar, 4);
+  printstring(touppercase("hello"));
+  printstring(tolowercase("GOODBYE"));
+  printstring(reversestring("cat"));
+  print(randomnumber(6, 10));
+  printstring(randomletter());
+  printstring(repeatstring("dog", 3));
+  print(greatestcommondenominator(81, 18));
+  printarray(range(1, 8), 7);
+  printarray(rangewithstep(1, 8, 2), 4);
+  printboolean(a == b);
+  printboolean(a != b);
+  printboolean(a > b);
+  printboolean(a < b);
+  printboolean(a <= b);
+  printboolean(isprime(131));
+  printboolean(isprime(80));
+  print(distance(10, 10, 7, 6));
+  printarray(ar, 4);
+  printboolean(true or false);
+  printstring(concatenate("abc", "def"));
+
+  print(test(2));
+
+  print(findchar("Serene", 'n'));
+  printstring(replaceletters("Serene",'e','i'));
+  printstring(scrambleletters("Serene"));
+
+
+  printstring("EXAMPLE.SN WORKS SUCCESSFULLY.");
+  printstring("----");
+}

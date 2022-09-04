@@ -1,0 +1,21 @@
+integer i;
+
+function main() -> integer {
+integer[] arr;
+arr = [1,2,3,4,5];
+printstring("RUNNING REVERSE.SN");
+printstring("reversing a reversed list");
+arr = reverse(arr,5);
+arr = reverse(arr,5);
+
+i = 0;
+while(i < 5) {
+print(arr[i]);
+i = i + 1;
+}
+
+
+printstring("REVERSE.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

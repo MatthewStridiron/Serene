@@ -1,0 +1,17 @@
+integer i;
+
+function main() -> integer {
+integer[][] arr;
+arr = [[1,2,3],[4,5,6],[7,8,9],[10,11,12]];
+i = 0;
+
+while(i < 4)
+{
+  printarray(arr[i], 3);
+  i = i + 1;
+}
+
+printstring("LIST OF LIST.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}

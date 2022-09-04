@@ -1,0 +1,18 @@
+integer n;
+integer output;
+
+function main() -> integer {
+printstring("RUNNING FACTORIAL.SN");
+n = 12;
+output = 1;
+
+while(n > 1) {
+output = output * n;
+n = n - 1;
+}
+print(output);
+printstring("FACTORIAL WORKS SUCCESSFULLY");
+printstring("----");
+return output;
+
+}

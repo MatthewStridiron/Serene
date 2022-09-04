@@ -1,0 +1,9 @@
+function main() -> integer {
+integer[] arr;
+arr = range(1,10);
+printstring("RUNNING RANGE.SN");
+printarray(arr,10);
+printstring("RANGE.SN WORKS SUCCESSFULLY");
+printstring("----");
+return 1;
+}
