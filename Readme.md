@@ -49,31 +49,31 @@ make demo2
   - etc
 
 ## Functions
-printf() - prints floats
-printstring() - prints strings
-printboolean() - prints booleans
-print() - prints integers
-substring("hello", 1, 3) - obtains the substring from index 1 to index 3 of the string "hello"
-printarray(ar, 4) - prints all of the elements in the array. 4 denotes the length of the array.
-maximum(ar, 4) - obtains the maximum number from array 'ar.' 4 denotes the length of the array
-sum(ar, 4) - obtains the sum of all the numbers in the array, 'ar.'  4 denotes the length of the array
-reverse(ar, 4) - reverses the elements within array 'ar.' 4 denotes the array length
-absolute(5) - absolute value of 5
-power(2,3) - computes 2 to the 3rd power
-fibonacci(7) - computes the 7th fibonacci number
-touppercase() - converts every letter in a string to upper case
-tolowercase() - converts every letter in a string to lower case
-randomnumber(6,10) - outputs a random number between 6 and 10
-randomletter() - outputs a random letter
-repeatstring("dog",3) - repeats the string "dog" three times
-greatestcommondenominator(81,18) - computes the GCD between 81 and 18
-printarray(range(1,8), 7);- range works similarly to python's range by outputting an array between 1 and 8. 7 denotes the array's length
-printarray(rangewithstep(1,8,2), 4) -  range works similarly to python's range by outputting an array between 1 and 8, except with a step size of 2. 4 denotes the array's length.
-distance(10,10,7,6) - computes distance of coordinates (10,10) and (7,6).
-printstring(concatenate("abc","def")) - prints the concatenation of "abc" and "def", which is "abcdef"
-findchar("Serene", 'n') - outputs the index of where the first 'n' is located.
-replaceletters("Serene", 'e', 'i') - replaces all instances of 'e' with 'i'
-scrambleletters("Serene") - scrambles the letters within the string "Serene"
+-printf() - prints floats
+-printstring() - prints strings
+-printboolean() - prints booleans
+-print() - prints integers
+-substring("hello", 1, 3) - obtains the substring from index 1 to index 3 of the string "hello"
+-printarray(ar, 4) - prints all of the elements in the array. 4 denotes the length of the array.
+-maximum(ar, 4) - obtains the maximum number from array 'ar.' 4 denotes the length of the array
+-sum(ar, 4) - obtains the sum of all the numbers in the array, 'ar.'  4 denotes the length of the array
+-reverse(ar, 4) - reverses the elements within array 'ar.' 4 denotes the array length
+-absolute(5) - absolute value of 5
+-power(2,3) - computes 2 to the 3rd power
+-fibonacci(7) - computes the 7th fibonacci number
+-touppercase() - converts every letter in a string to upper case
+-tolowercase() - converts every letter in a string to lower case
+-randomnumber(6,10) - outputs a random number between 6 and 10
+-randomletter() - outputs a random letter
+-repeatstring("dog",3) - repeats the string "dog" three times
+-greatestcommondenominator(81,18) - computes the GCD between 81 and 18
+-printarray(range(1,8), 7);- range works similarly to python's range by outputting an array between 1 and 8. 7 denotes the array's length
+-printarray(rangewithstep(1,8,2), 4) -  range works similarly to python's range by outputting an array between 1 and 8, except with a step size of 2. 4 denotes the array's length.
+-distance(10,10,7,6) - computes distance of coordinates (10,10) and (7,6).
+-printstring(concatenate("abc","def")) - prints the concatenation of "abc" and "def", which is "abcdef"
+-findchar("Serene", 'n') - outputs the index of where the first 'n' is located.
+-replaceletters("Serene", 'e', 'i') - replaces all instances of 'e' with 'i'
+-scrambleletters("Serene") - scrambles the letters within the string "Serene"
 
 ## Responsibilities
 
