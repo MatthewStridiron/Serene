@@ -93,7 +93,7 @@ make demo2
 ### Matthew Stridiron
 - Constructed the foundation for arrays from scanner phase to semantic phase.
 - Built IR Gen to run basic scripts involving external function declarations, while loops, and integers.
-- Gathered keywords and constructed the scanner.
+- Gathered keywords and constructed the scanner/parser.
 - Created and debugged test scripts.
 
 ### Michael Ozymy
